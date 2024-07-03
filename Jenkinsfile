@@ -3,7 +3,7 @@ pipeline {
  
     environment {
         // Define the path to your Helm chart directory relative to the cloned repository
-        HELM_CHART_DIR = '/home/test3/TEATOM_SCRIPTSTORE'
+        HELM_CHART_DIR = '/home/test3/TEATOM_SCRIPTSTORE/te-atom'
     }
  
     stages {
