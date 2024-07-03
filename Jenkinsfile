@@ -10,7 +10,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 // Clone the repository containing the Helm chart
-                git 'https://github.com/saravanan014/latest.git'
+                git branch: 'main', url: 'https://github.com/saravanan014/latest.git'
             }
         }
  
